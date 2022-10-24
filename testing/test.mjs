@@ -5,8 +5,8 @@ import * as decay from "../output/index.js"
 async function run() {
 
     const shorttermMemory = {}
-    decay.makeForgetableMemory(shorttermMemory)
-    const shortertermMemory = decay.makeForgetableMemory({}, 2000)
+    decay.makeForgetable(shorttermMemory)
+    const shortertermMemory = decay.makeForgetable({}, 2000)
     
 
     //manual shortertermMemory - 2s
